@@ -1,2 +1,16 @@
 1. 앞으로 git 프로젝트로 만들고 싶은 것
-2, 1주차 주요 개념 키워드 적어보기
+ : 알고리즘 문제 푼 거 정리해서 올리기, 팀원들이랑 프로젝트 한 거 협업해서 올려보기
+
+2 1주차 주요 개념 키워드 적어보기
+ - 버전관리 : 언제, 어디서 어떻게 바뀌었는지 상태를 정리하는 것
+ - 깃 초기화 : git initialize. 이 폴더는 앞으로 git이 관리할거야! .git이라는 숨김폴더 생성.
+ - add/staging : 올리고자 하는 파일을 스테이지에 add  staging한다. 파일을 올려준다
+ - commit (커밋) : 누가, 언제 커밋했는지 / 프로젝트 변경 내용을 커밋한다. history에서 내역 확인. 작업된 내용에 대한 메세지를 적어주는게 커밋 메시지
+ - 원격 repo : Git Hub.
+ - 로컬 repo : 내 컴퓨터
+ - 로컬 repo를 원격 repo에 연결하는 것을 추적(Tracking). 브랜치 트랙킹이라고 한다
+ - Push : 로컬 repo의 commit들을 원격 repo commit 내역에 반영하는 것. commit들을 밀어넣기! = 업로드
+ - Pull : 원격 repo의 commit들을 로컬 repo commit 내역에 합치는 것. commit들을 땡겨오기! = 다운로드 
+ - 클론 clone : 로걸에 없는 repo를 원격 repo url을 통해 복제해오는것.
+
+*충돌(conflict)를 방지 하기 위해 Pull -> commit -> Push 순으로 하는 것이 좋다.
